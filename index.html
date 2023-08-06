@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customize Page</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form id="customForm">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!-- Job Title -->
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required>
+
+        <!-- Employer Name -->
+        <label for="employerName">Employer Name:</label>
+        <input type="text" id="employerName" name="employerName" required>
+
+        <!-- Job Location -->
+        <label for="jobLocation">Job Location:</label>
+        <input type="text" id="jobLocation" name="jobLocation" required>
+
+        <!-- Job Description -->
+        <label for="jobDescription">Job Description:</label>
+        <textarea id="jobDescription" name="jobDescription" required></textarea>
+
+        <!-- Date Applied -->
+        <label for="dateApplied">Date Applied:</label>
+        <input type="date" id="dateApplied" name="dateApplied" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Add a container to display the customized content -->
+    <div id="outputContainer"></div>
+
+    <!-- Link the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

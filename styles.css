@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+* {
+    font-size: 15px;
+}
+
+.main_container {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: #F7F8FB; 
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+}
+
+
+.menu_container {
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+
+.menu_container > :first-child  {
+    font-size: 26px;    
+   
+}
+  
+
+
+.menu { 
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.menu > :first-child  {
+    padding-right: 3em;
+}
+
+  .menu :nth-child(2) {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5em;
+
+}
+
+  .applied_job {
+   display: flex;
+   background-color: #ffffff;
+   padding-left: 1em;
+   padding-top: 2em;
+   padding-bottom: 2em;
+ 
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.date_applied {
+    display: flex;
+    color: #000000;
+    padding-bottom: 1.6em;
+}
+
+.col_1 {
+    flex-basis: 70%;
+  
+}
+
+.col_2 {
+    flex-basis: 30%;
+    padding-left:1em;
+    padding-top: 2em;
+    font-weight: 100;
+
+}
+
+#job-title {
+    color: #4964E9;
+    font-size: 18px;
+}
+
+
+#employer {
+    font-weight: 100;
+}
+
+#job-posted {
+    font-weight: 100;
+    padding-top: 0.8em;
+    padding-bottom:0.12em
+}
+
+#job-location, #job-desc {
+    color: #5A6881;
+    font-weight: 100;
+    padding-bottom: 0.8em;
+}
+
+#notes-container  {
+    color: #4964E9;
+    display: flex;
+    
+}
+
+#plus {
+    font-size: 22px;
+
+}
+
+#add{
+    padding-top: 0.3em;
+    padding-left: 1.5em;
+
+}
+
+.fa-regular {
+    padding-right: 0.5em;
+    font-size: 20px;
+    
+}
+
+.blue {
+    color: #4964E9;
+}
+
+#cover {
+   padding-bottom: 0.8em;
+}
+
+#remove {
+    display: flex;
+    padding-top: 2.2em;
+}
+
+.remove {
+    padding-left: 1.5em;
+}
+
+
+
+.navbar {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 130px; /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-left: 100px;
+    flex-basis: 10%;
+}
+
+.navbar-logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: #5A6881;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.black {
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+.chevron {
+    padding-left: 0.5em;
+}
+
+.end_menu {
+    padding-right: 10em;
+}
